@@ -135,10 +135,9 @@ def main():
     st.set_page_config(page_title="Autonomous researcher - Twitter threads", page_icon=":bird:")
 
     st.header("Autonomous researcher - Twitter threads :bird:")
-    openaiapi = st.text_input("OpenAI API Key")
     query = st.text_input("Topic of twitter thread")
 
-    openai.api_key = openaiapi
+    openai.api_key = "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"
 
     if query:
         print(query)
