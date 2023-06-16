@@ -130,7 +130,6 @@ def generate_thread(summaries, query):
 
 
 def main():
-    load_dotenv(find_dotenv())
 
     st.set_page_config(page_title="Autonomous researcher - Twitter threads", page_icon=":bird:")
 
