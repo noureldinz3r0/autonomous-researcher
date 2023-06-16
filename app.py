@@ -8,7 +8,7 @@ import requests
 import json
 import streamlit as st
 
-SERPAPI_API_KEY = os.getenv("SERPAPI_API_KEY")
+SERPAPI_API_KEY = "a19085984992e29cdd260ea3cff6d76460a04dbe"
 
 # serp request to get list of news
 
